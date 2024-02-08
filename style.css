@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+}
+
+.optima {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+}
+
+.title-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    background-image: url('./fjords_background_img.jpg');
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 4.75fr;
+    margin: -10px;
+}
+
+#title-bar {
+    background: #cfd6de;
+    opacity: 50%;
+    margin: 25px;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.index-main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.subtitle-grid {
+    display: grid;
+    grid-template-rows: 1.25fr 1fr;
+}
+
+#index-subtitle {
+    padding-left: 10%;
+}
+
+
+#subtitle-1 {
+    color: white;
+    font-size: 60px;
+}
+
+#subtitle-2 {
+    color: white;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.nav-bar-parent {
+    margin: 50px;
+    background: #cfd6de;
+    opacity: 50%;
+    border-radius: 20px;
+}
+
+.nav-bar {
+    margin: 10%;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.table-item {
+    padding: 50px;
+    font-size: 30px;    
+}
+
+a {
+    text-decoration: none;
+    color: #61666C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+}
+
+a:hover {
+    color: #19231a;
+}
+
+/* Beginning of Myths styling */
+
+.myths-grid {
+    display: grid;
+    grid-template-rows: .25fr 2fr;
+}
+
+#myths-title {
+    font-size: 50px;
+    color: white;
+}
+
+.myth-subtitle {
+    font-size: 20px;
+    color: white;
+    padding-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif; 
+}
+
+.myth {
+    font-size: 16px;
+    color: white;
+    padding-left: 6.7%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    padding-right: 5%;
+    list-style: none;
+    
+    
+}
+
+/* Beginning of Gallery styling */
+
+.gallery-grid {
+    display: grid;
+    grid-template-rows: .25fr 2fr;
+}
+
+#gallery-title {
+    font-size: 50px;
+    color: white;
+    padding-left: 22%;
+}
+
+#gallery {
+    font-size: 16px;
+    color: white;
+    padding-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    padding-right: 5%;
+}
+
+.select-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#select-style {
+    padding-top: 52px;
+}
+
+#guide {
+    appearance: none;
+    padding: 8px;
+    margin-left: 125px;
+    margin-top: 3px;
+    opacity: 50%;
+    background: #cfd6de;
+    color: #61666C;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.select-label {
+    font-size: 18px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    padding-right: 10px;
+    position: absolute;
+    top: 195px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 6%;
+    margin-top: 60px;
+}
+
+#image-1 {
+    height: 250px;
+    border-radius: 20px;
+}
+
+#image-2 {
+    height: 250px;
+    border-radius: 20px;
+}
